@@ -585,7 +585,7 @@
 
 
 
-//high order function- функции высшего порядка
+// high order function- функции высшего порядка
 
 // Switch
 // let day = "friday";
@@ -767,7 +767,7 @@
 
 
 
-//для каждого массива вызывает отдельную переданную функцию
+// для каждого массива вызывает отдельную переданную функцию
 
 // const users = ["John","bob","MaRia","almaz"];
 
@@ -802,3 +802,62 @@
 //     (userName) => userName.trim().toLowerCase().charAt(0)=== "a"
 // );
 // console.log(namesStartingWithA);
+
+// hometasks 30.01
+
+// Дано число. Выведите в консоль первую цифру этого числа.
+
+//    let num = "4567";
+//    let str = num.toString();
+//    console.log(str[0]);
+
+// Дано число. Выведите в консоль последнюю цифру этого числа.
+
+// let num = "8907";
+// let str = num.toString();
+// console.log(str[str.length - 1]);
+
+// Дано число. Выведите в консоль сумму первой и последней цифры этого числа.
+
+// let num = "2008";
+
+// let firstNum = Number.toString();
+// let firstNumb = parselnt(firstNum[0]);
+// let lastNum = parselnt(firstNum[firstNum.length - 1]);
+
+// let sum = firstNum + lastNum;
+// console.log(sum);
+
+
+// Дано число. Выведите количество цифр в этом числе.
+
+// let num = "200808";
+// console.log(num.toString().length);
+// Даны два числа. Проверьте, что первые цифры этих чисел совпадают.
+
+
+
+// №1
+
+// Дана строка. Если в этой строке более одного символа, выведите в консоль предпоследний символ этой строки.
+//  let str = "academy";
+
+// if (str.length > 1) {
+//     console.log(str[str.length - 2]);
+// } else {
+//     console.log("не хватает символов");
+// }
+
+
+// №2
+
+// Даны два целых числа. Проверьте, что первое число без остатка делится на второе.
+// let a = "20";
+// let b = "2";
+
+// if (b !== 0 && a % b === 0) {
+//     console.log("Да");
+// } else {
+//     console.log("Нет");
+// }
+
