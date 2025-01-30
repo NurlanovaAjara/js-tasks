@@ -579,3 +579,226 @@
 //   default:
 //     console.log("Error");
 // }
+
+
+// function sayHell
+
+
+
+//high order function- функции высшего порядка
+
+// Switch
+// let day = "friday";
+// switch (day) {
+//   case "monday":
+//   case "tuesday":
+//   case "wednesday":
+//   case "thursday":
+//   case "friday":
+//     console.log("Work!");
+//     break;
+//   case "saturday":
+//   case "sunday":
+//     console.log("Weekend");
+//     break;
+//   default:
+//     console.log("Не корректный день недели!");
+// }
+// if (day === "monday") {
+//   console.log("Work!");
+// } else if (day === "tuesday") {
+//   console.log("Work again!");
+// } else if (day === "wednesday") {
+//   console.log("Work again!");
+// } else if (day === "thursday") {
+//   console.log("Work again!");
+// } else if (day === "friday") {
+//   console.log("Work again!");
+// } else if (day === "saturday") {
+//   console.log("Weekend");
+// } else if (day === "sunday") {
+//   console.log("Weekend");
+// } else {
+// console.log("Unknown day")}
+// let ivansFriend = "John";
+// let ivansFriend2 = "Bob";
+// Массив = Array
+// const ivansFriends = [
+//   "John",
+//   "Bob",
+//   "Alice",
+//   "Tom",
+//   "Bob",
+//   "Alice",
+//   "Tom",
+//   "Adil",
+//   "Bekzat",
+// ];
+// console.log(ivansFriends.length);
+// console.log(ivansFriends[3]);
+// console.log(ivansFriends[ivansFriends.length - 1]);
+// Добавление в массив (в конец)
+// const ivansFriends = [];
+// console.log(ivansFriends);
+// ivansFriends.push("John");
+// console.log(ivansFriends);
+// ivansFriends.push("Bob");
+// console.log(ivansFriends);
+// // Добавление в начало массива
+// ivansFriends.unshift("Tom");
+// console.log(ivansFriends);
+// let friends = new Array("John", "Bob", "Tom", "Alice");
+// console.log(friends);
+// let prices = [1, 2, 3, 4, 50.45, 6, 7, 8, 9, 10];
+// let matrix = [
+//   [1, [2], 3],
+//   [4, 5, 6],
+//   [7, 8, 9],
+// ];
+// let user = ["John", 20, true];
+// const ivansFriends = [
+//   "John",
+//   "Bob",
+//   "Alice",
+//   "Tom",
+//   "Bob",
+//   "Alice",
+//   "Tom",
+//   "Adil",
+//   "Bekzat",
+// ];
+// console.log(ivansFriends);
+// ivansFriends.pop();
+// console.log(ivansFriends);
+// ivansFriends.pop();
+// console.log(ivansFriends);
+// ivansFriends.shift();
+// console.log(ivansFriends);
+// ivansFriends[2] = "Kamchybek";
+// console.log(ivansFriends);
+// const ivansFriends = [
+//   "John",
+//   "Bob",
+//   "Alice",
+//   "Tom",
+//   "Bob",
+//   "Alice",
+//   "Tom",
+//   "Adil",
+//   "Bekzat",
+// ];
+// console.log(ivansFriends);
+// const joined = ivansFriends.join(", ");
+// console.log(joined);
+// Loops = Цикл
+// while
+// let i = 200;
+// while (i >= 0) {
+//   // console.log(i);
+//   console.log("Hello");
+//   i--;
+// }
+// do while
+// let i = -2;
+// do {
+//   console.log(i);
+//   i--;
+// } while (i >= 0);
+// for
+// for (let i = 10; i >= 0; i--) {
+//   console.log(i);
+// }
+// const ivansFriends = [
+//   "John",
+//   "Bob",
+//   "Alice",
+//   "Tom",
+//   "Bob",
+//   "Alice",
+//   "Tom",
+//   "Adil",
+//   "Bekzat",
+//   "Kamchybek",
+// ];
+// for (let i = 0; i < ivansFriends.length; i++) {
+//   console.log(ivansFriends[i]);
+// }
+// for (let i = 0; i <= 20; i++) {
+//   // if (i % 2 === 0) {
+//   //   console.log(i);
+//   // }
+//   if (i === 5) {
+//     // break;
+//     // continue;
+//   }
+//   console.log(i);
+// }
+// for ... of
+// const books = [
+//   "John",
+//   "Bob",
+//   "Alice",
+//   "Tom",
+//   "Bob",
+//   "Alice",
+//   "Tom",
+//   "Adil",
+//   "Bekzat",
+//   "Kamchybek",
+// ];
+// for (book of books) {
+//   console.log(book);
+// }
+// const books = [
+//   // "John",
+//   // "Bob",
+//   // "Alice",
+//   // "Tom",
+//   // "Bob",
+//   // "Alice",
+//   // "Tom",
+//   // "Adil",
+//   // "Bekzat",
+//   // "Kamchybek",
+//   23, 45, 20, 12, 1, 0, 125,
+// ];
+// const sortedBooks = books.sort();
+// console.log(sortedBooks);
+
+
+
+//для каждого массива вызывает отдельную переданную функцию
+
+// const users = ["John","bob","MaRia","almaz"];
+
+// users.toUpperCase((userName, i) =>{
+//     console.log(users.trim);
+// });
+// const sentence = 'The,quick, brown ,fox ,jumps ,over ,the ,lazy, dog.';
+
+// console.log(sentence.toUpperCase());
+
+// const users = ["John","bob","MaRia","almaz"];
+
+// users.forEach((user) =>{}
+   
+
+// })
+
+// const users = ["John","bob","MaRia","almaz"];
+// users.forEach((users)=>{
+//     console.log(users.trim().tolowerCase());
+// }
+// );
+
+// const numbersString = ["45","29","12","5","3"];
+
+// const realNumbers = numbersString.map(Number);
+// console.log(realNumbers);
+
+
+// const userNames = ["Bob","Vasya","Adil","Beknazar","Milana","Aiturgan"]
+// const namesStartingWithA = userNames.filter(
+//     (userName) => userName.trim().toLowerCase().charAt(0)=== "a"
+// );
+// console.log(namesStartingWithA);
