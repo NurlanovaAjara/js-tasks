@@ -1019,9 +1019,9 @@
 
 // 12345
 // Получите массив цифр этого числа.
-const num = 12345;
-const letters = num.toString().split('').map(Number);
-console.log(letters); 
+// const num = 12345;
+// const letters = num.toString().split('').map(Number);
+// console.log(letters); 
 
 // №3
 
@@ -1029,6 +1029,9 @@ console.log(letters);
 
 // 12345
 // Переверните его:
+const num = 12345;
+const reversedNumber = Number(num.toString().split('').reverse().join(''));
+console.log(reversedNumber);
 
 // 54321
 // №4
