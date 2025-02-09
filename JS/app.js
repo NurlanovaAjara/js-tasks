@@ -931,7 +931,7 @@
 //   btn.classList.toggle("active");
 // });
 
-// Дан массив с числами. Найдите сумму квадратов элементов этого массива.
+// // Дан массив с числами. Найдите сумму квадратов элементов этого массива.
 // const array = [1, 2, 3, 4, 5];
 // const sumOfSquares = array.reduce((acc, num) => acc + num ** 2, 0);
 // console.log("Сумма квадратов элементов массива:", sumOfSquares);
@@ -940,10 +940,22 @@
 // №2
 
 // Дан массив с числами. Найдите сумму квадратных корней элементов этого массива.
+// const array = [1, 4, 9, 16, 25];
+// const sumOfSquareRoots = array.reduce((acc, num) => acc + Math.sqrt(num), 0);
+// console.log("Сумма квадратных корней элементов массива:", sumOfSquareRoots);
 
 // №3
 
 // Дан массив с числами. Найдите сумму положительных элементов этого массива.
+// const array = [-17, 3, 2, -1, 10, -8];
+// const sumOfPositives = array.reduce((acc, num) => {
+//   if (num > 0) {
+//     return acc + num;
+//   }
+//   return acc;
+// }, 0);
+
+// console.log("Сумма положительных элементов массива:", sumOfPositives);
 
 // №4
 
