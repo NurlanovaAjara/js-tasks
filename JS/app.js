@@ -932,9 +932,9 @@
 // });
 
 // Дан массив с числами. Найдите сумму квадратов элементов этого массива.
-const array = [1, 2, 3, 4, 5];
-const sumOfSquares = array.reduce((acc, num) => acc + num ** 2, 0);
-console.log("Сумма квадратов элементов массива:", sumOfSquares);
+// const array = [1, 2, 3, 4, 5];
+// const sumOfSquares = array.reduce((acc, num) => acc + num ** 2, 0);
+// console.log("Сумма квадратов элементов массива:", sumOfSquares);
 
 
 // №2
