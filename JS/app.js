@@ -881,3 +881,103 @@
 // №5
 
 // Выведите в консоль все числа кратные трем в промежутке от 1 до 100.
+
+
+
+
+
+// const taskText =
+//   "Дана строка. Если в этой строке более одного символа, выведите в консоль предпоследний символ этой строки.";
+
+// const h1 = document.getElementById("task");
+// h1.innerText = taskText;
+// const label = document.getElementById("input-label");
+// label.innerText = "Введите строку";
+// const button = document.getElementById("submitBtn");
+// button.addEventListener("click", function () {
+//   const input = document.getElementById("user-input").value;
+//   const result = document.getElementById("result");
+//   if (input.length > 1) {
+//     result.innerText = input.slice(-2, -1);
+//   } else {
+//     result.innerText = "Ошибка введите нормальный текст";
+//   }
+// });
+
+
+// const p = document.querySelector(".myClass");
+
+// p.innerText = "Hello";
+
+// console.log(p);
+
+
+
+
+// const img = document.querySelector("Img");
+// img.alt = "Яблоко";
+// console.dir(img);
+
+
+
+// button.setAttribute("Старое изображение", "Яблоко"); 
+// button.removeAttribute("Старое изображение"); 
+
+// console.log(setAttribute);
+
+// const active = document.querySelector("button");
+// link.classList
+// btn.addEventListener("click",function() {
+//   btn.classList.toggle("active");
+// });
+
+// Дан массив с числами. Найдите сумму квадратов элементов этого массива.
+const array = [1, 2, 3, 4, 5];
+const sumOfSquares = array.reduce((acc, num) => acc + num ** 2, 0);
+console.log("Сумма квадратов элементов массива:", sumOfSquares);
+
+
+// №2
+
+// Дан массив с числами. Найдите сумму квадратных корней элементов этого массива.
+
+// №3
+
+// Дан массив с числами. Найдите сумму положительных элементов этого массива.
+
+// №4
+
+// Дан массив с числами. Найдите сумму тех элементов этого массива, которые больше нуля и меньше десяти.
+
+
+
+
+
+
+
+
+
+
+//  button.addEventListener("click",function() {
+//     const input = document.getElementById("user-input").value;
+//     const result = document.getElementById("result").value;
+
+//     const a = Number(document.getElementById("a").value);
+//     const b = Number(document.getElementById("b").value);
+    
+
+//     if (b !== 0 && a % b === 0) {
+//         result.innerText = "Да";
+//     } else {
+//         result.innerText = "Нет";
+//     }
+
+//  });
+
+ 
+//  button.addEventListener("click", function () {
+//    const number1 = Number(document.getElementById("number1").value);
+ 
+//    const number2 = Number(document.getElementById("number2").value);
+//    result.innerText = `${number1 % number2}`;
+//  });
