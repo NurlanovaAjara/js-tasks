@@ -931,6 +931,37 @@
 //   btn.classList.toggle("active");
 // });
 
+
+//  button.addEventListener("click",function() {
+//     const input = document.getElementById("user-input").value;
+//     const result = document.getElementById("result").value;
+
+//     const a = Number(document.getElementById("a").value);
+//     const b = Number(document.getElementById("b").value);
+    
+
+//     if (b !== 0 && a % b === 0) {
+//         result.innerText = "Да";
+//     } else {
+//         result.innerText = "Нет";
+//     }
+
+//  });
+
+ 
+//  button.addEventListener("click", function () {
+//    const number1 = Number(document.getElementById("number1").value);
+ 
+//    const number2 = Number(document.getElementById("number2").value);
+//    result.innerText = `${number1 % number2}`;
+//  });
+
+
+
+
+
+
+
 // // Дан массив с числами. Найдите сумму квадратов элементов этого массива.
 // const array = [1, 2, 3, 4, 5];
 // const sumOfSquares = array.reduce((acc, num) => acc + num ** 2, 0);
@@ -961,6 +992,15 @@
 
 // Дан массив с числами. Найдите сумму тех элементов этого массива, которые больше нуля и меньше десяти.
 
+const array = [-3, 2, 5, 0, 9, 11, 10, 7];
+const sum = array.reduce((acc, num) => {
+  if (num > 0 && num < 10) {
+    return acc + num;
+  }
+  return acc;
+}, 0);
+
+console.log("Сумма элементов, которые больше нуля и меньше десяти:", sum);
 
 
 
@@ -970,26 +1010,3 @@
 
 
 
-//  button.addEventListener("click",function() {
-//     const input = document.getElementById("user-input").value;
-//     const result = document.getElementById("result").value;
-
-//     const a = Number(document.getElementById("a").value);
-//     const b = Number(document.getElementById("b").value);
-    
-
-//     if (b !== 0 && a % b === 0) {
-//         result.innerText = "Да";
-//     } else {
-//         result.innerText = "Нет";
-//     }
-
-//  });
-
- 
-//  button.addEventListener("click", function () {
-//    const number1 = Number(document.getElementById("number1").value);
- 
-//    const number2 = Number(document.getElementById("number2").value);
-//    result.innerText = `${number1 % number2}`;
-//  });
