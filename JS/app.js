@@ -1029,9 +1029,9 @@
 
 // 12345
 // Переверните его:
-const num = 12345;
-const reversedNumber = Number(num.toString().split('').reverse().join(''));
-console.log(reversedNumber);
+// const num = 12345;
+// const reversedNumber = Number(num.toString().split('').reverse().join(''));
+// console.log(reversedNumber);
 
 // 54321
 // №4
@@ -1041,6 +1041,9 @@ console.log(reversedNumber);
 // 12345
 // Найдите сумму цифр этого числа.
 
+const num = 12345;
+const sum = num.toString().split('').map(Number).reduce((acc, digit) => acc + digit, 0);
+console.log("Сумма цифр числа:", sum);
 
 
 
