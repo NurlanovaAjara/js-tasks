@@ -1081,6 +1081,10 @@
 // const b = parseInt("6px");
 // console.log(a + b);
 
-let a = parseFloat("6.25px");
-let b = parseFloat("5.5px");
-console.log(a + b);
+// let a = parseFloat("6.25px");
+// let b = parseFloat("5.5px");
+// console.log(a + b );
+
+let num1 = 5;
+let num2 = 50;
+console.log(String(num2) + String(num1));
