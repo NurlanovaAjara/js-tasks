@@ -1085,6 +1085,20 @@
 // let b = parseFloat("5.5px");
 // console.log(a + b );
 
-let num1 = 5;
-let num2 = 50;
-console.log(String(num2) + String(num1));
+// let num1 = 5;
+// let num2 = 50;
+// console.log(String(num2) + String(num1));
+
+
+// let str = "abcde";
+// console.log(str[0],str[2],str[4]);
+
+// const num =  'abcde';
+//  const reversedNumber = Number(num.toString().split('').reverse().join(''));
+//  console.log(reversedNumber);
+
+
+ const str =  "abcde";
+ const num = 3;
+
+ console.log(str[num]);
