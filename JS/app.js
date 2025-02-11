@@ -1098,7 +1098,14 @@
 //  console.log(reversedNumber);
 
 
- const str =  "abcde";
- const num = 3;
+//  const str =  "abcde";
+//  const num = 3;
 
- console.log(str[num]);
+//  console.log(str[num]);
+
+
+
+// Создайте переменную num и присвойте ей значение 123.
+//  Выведите значение этой переменной на экран с помощью функции alert.
+const num = 123;
+console.log(num);
