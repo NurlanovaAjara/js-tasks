@@ -1192,3 +1192,9 @@
 // Возведите число 2 в 10-ю степень. Выведите результат на экран.
 const result = 2 ** 10; 
 console.log(result); 
+
+// Создайте строку с вашем именем и строку с вашей фамилией. Выведите эти данные на экран.
+const firstName = 'Ажара';  
+const lastName = 'Нурланбекова';   
+console.log(firstName);
+console.log(lastName);
