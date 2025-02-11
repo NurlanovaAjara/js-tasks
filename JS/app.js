@@ -1190,11 +1190,31 @@
 // console.log(remainder);
 
 // Возведите число 2 в 10-ю степень. Выведите результат на экран.
-const result = 2 ** 10; 
-console.log(result); 
+// const result = 2 ** 10; 
+// console.log(result); 
 
-// Создайте строку с вашем именем и строку с вашей фамилией. Выведите эти данные на экран.
-const firstName = 'Ажара';  
-const lastName = 'Нурланбекова';   
-console.log(firstName);
-console.log(lastName);
+// // Создайте строку с вашем именем и строку с вашей фамилией. Выведите эти данные на экран.
+// const firstName = 'Ажара';  
+// const lastName = 'Нурланбекова';   
+// console.log(firstName);
+// console.log(lastName);
+
+// Создайте переменную str и присвойте ей строку '!!!'. Выведите значение этой 
+// переменной на экран.
+const str = '!!!';
+console.log(str);
+
+// Создайте переменную с текстом 'java' и переменную с текстом 'script'. 
+// С помощью этих переменных и операции сложения строк выведите на экран строку 'javascript'.
+
+const b = 'java';
+const c = 'script';
+console.log(b + c);
+
+// Создайте переменную с текстом 'hello' 
+// и переменную с текстом 'world'. С помощью этих переменных и операции 
+// сложения строк выведите на экран строку 'hello world'.
+
+const hello = 'hello';
+const world = 'world';
+console.log(hello + ' ' + world); 
