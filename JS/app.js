@@ -1184,7 +1184,11 @@
 
 // Найдите остаток от деления следующих переменных:
 
-let a = 13;
-let b = 5;
-let remainder = a % b;
-console.log(remainder);
+// let a = 13;
+// let b = 5;
+// let remainder = a % b;
+// console.log(remainder);
+
+// Возведите число 2 в 10-ю степень. Выведите результат на экран.
+const result = 2 ** 10; 
+console.log(result); 
