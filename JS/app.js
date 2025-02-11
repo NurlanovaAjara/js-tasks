@@ -1157,11 +1157,17 @@
 //  присвойте ей значение 7. Сложите переменные c и d, а 
 // результат запишите в переменную result. Выведите на экран значение переменной result.
 
-const a = 10;
-const b = 5;
-const c = a - b; 
-const d = 7;
-const result = c + d; 
+// const a = 10;
+// const b = 5;
+// const c = a - b; 
+// const d = 7;
+// const result = c + d; 
 
-console.log("Значение переменной result:", result);
+// console.log("Значение переменной result:", result);
 
+// Запишите в переменную a число 1.5, а в переменную b 
+// - число 0.75. Найдите сумму значений этих переменных и выведите ее на экран.
+const a = 1.5;
+const b = 0.75;
+const sum = a + b;
+console.log("Сумма значений переменных:", sum);
