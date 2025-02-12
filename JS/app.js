@@ -1230,3 +1230,15 @@
 
 let a = null;
 console.log(a);
+
+// Присвойте переменной значение true. Выведите эту переменную на экран.
+
+
+let myVar = true;
+console.log(myVar);
+// Присвойте переменной значение false. Выведите эту переменную на экран.
+
+myVar = false;
+console.log(myVar);
+
+
