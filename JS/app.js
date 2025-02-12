@@ -1228,17 +1228,18 @@
 // let a;
 // console.log(a);
 
-let a = null;
-console.log(a);
+// let a = null;
+// console.log(a);
 
-// Присвойте переменной значение true. Выведите эту переменную на экран.
-
-
-let myVar = true;
-console.log(myVar);
-// Присвойте переменной значение false. Выведите эту переменную на экран.
-
-myVar = false;
-console.log(myVar);
+// // Присвойте переменной значение true. Выведите эту переменную на экран.
 
 
+// let myVar = true;
+// console.log(myVar);
+// // Присвойте переменной значение false. Выведите эту переменную на экран.
+
+// myVar = false;
+// console.log(myVar);
+
+// Сделайте две строки. Перемножьте их друг на друга. Выведите результат умножения на экран.
+console.log('abc' * 3);
