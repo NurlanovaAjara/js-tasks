@@ -1254,12 +1254,20 @@
 
 // Дана переменная. Выведите в консоль ее значение.
 
-const ajara = 2008;
-console.log(ajara);
+// const ajara = 2008;
+// console.log(ajara);
 
-//Даны три переменные. Выведите в консоль их значения
+// //Даны три переменные. Выведите в консоль их значения
 
-let a = 123;
-let b = 456;
-let c = 789;
-console.log(a,b,c);
+// let a = 123;
+// let b = 456;
+// let c = 789;
+// console.log(a,b,c);
+
+const m = [1,2,3,4,5];
+alert(m);
+console.log(m);
+
+let s = ['ayana','ajara'];
+alert(s);
+console.log(s);
