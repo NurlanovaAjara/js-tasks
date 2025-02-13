@@ -1264,10 +1264,51 @@
 // let c = 789;
 // console.log(a,b,c);
 
-const m = [1,2,3,4,5];
-alert(m);
-console.log(m);
+// const m = [1,2,3,4,5];
+// alert(m);
+// console.log(m);
 
-let s = ['ayana','ajara'];
-alert(s);
-console.log(s);
+// let s = ['ayana','ajara'];
+// alert(s);
+// console.log(s);
+
+
+
+// Проверьте, что переменная test больше 10.
+
+// let test = 1;
+
+// if (test > 10) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// Проверьте, что переменная test меньше 10.
+
+// let test = 6;
+
+// if (test < 10) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+// // Проверьте, что переменная test больше или равна 10.
+
+// let test = 18;
+
+// if (test >= 10) {
+// 	console.log('+++'); // сработает это
+// } else {
+// 	console.log('---');
+// }
+
+// Проверьте, что переменная test меньше или равна 10.
+let test = 10;
+
+if (test >= 10) {
+	console.log('+++'); // сработает это
+} else {
+	console.log('---');
+}
