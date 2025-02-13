@@ -1298,17 +1298,38 @@
 
 // let test = 18;
 
-// if (test >= 10) {
-// 	console.log('+++'); // сработает это
+// if (test >= 10) {// сработает это
 // } else {
 // 	console.log('---');
 // }
 
 // Проверьте, что переменная test меньше или равна 10.
-let test = 10;
+// let test = 10;
 
-if (test >= 10) {
-	console.log('+++'); // сработает это
-} else {
-	console.log('---');
-}
+// if (test >= 10) {
+// 	console.log('+++'); 
+// } else {
+// 	console.log('---');
+// }
+
+
+// Проверьте, что переменная test равна 10.
+
+// let test = 6;
+
+// if (test == 10) {
+// 	console.log('+++');
+// } else {
+// 	console.log('---');
+// }
+
+//Проверьте, что переменная test не равна 10.
+// let test = 17;
+
+// if (test != 10) {
+// 	console.log('+++'); 
+// } else {
+// 	console.log('---');
+// }
+
+
